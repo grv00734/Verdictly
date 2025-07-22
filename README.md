@@ -1,70 +1,55 @@
 # Verdictly – AI-Powered Virtual Legal Assistant
 
-**Verdictly** is a modern LegalTech platform that uses artificial intelligence to analyze legal documents, match relevant laws, retrieve similar case precedents, and extract real-time legal news. Designed for individuals, startups, and legal professionals, Verdictly makes legal analysis accessible, accurate, and efficient.
-
-Whether reviewing a contract, handling a legal notice, or preparing for litigation, Verdictly provides clarity, contextual legal insights, and precedent-driven strategy — powered by GPT-based reasoning and robust legal data sources.
-
----
+Verdictly is a modern LegalTech platform revolutionizing legal analysis with artificial intelligence. Designed for individuals, startups, and legal professionals, it enables intuitive understanding of legal documents, risk profiling, case precedent matching, and real-time legal news tracking — all with GPT-based reasoning and deep Indian legal integration.
 
 ## Features
 
-- Upload and analyze legal documents (PDF, DOCX)
-- Automatic extraction of relevant Indian laws (IPC, CrPC, Contract Act, etc.)
-- AI-powered reasoning on legal issues, risk, and interpretations
-- Case precedent matching from public legal databases
-- Retrieval of similar cases from real-world news
-- Conversational legal assistant for follow-up questions
-- Secure, private document processing
+### Document Handling
+- Upload and parse legal documents (PDF, DOCX)
+- Extract structured legal insights with AI reasoning
+- Clause comparison with standard contract models
 
----
+### Legal Intelligence
+- Match relevant Indian laws (IPC, CrPC, Contract Act, etc.)
+- Predict litigation outcomes using trained ML models
+- Retrieve similar precedents from Indian Kanoon & CourtListener
+- Legal Expense Estimator based on case and region
 
-## How It Works
+### Conversational AI
+- Multilingual legal assistant in Hindi, Bengali, Tamil & more
+- Voice-enabled queries powered by Whisper & ElevenLabs
+- Smart Legal Q&A with follow-up context understanding
 
-1. **Upload a legal document**
-2. **AI model processes and extracts structured legal meaning**
-3. **Matches relevant laws and risks**
-4. **Finds similar case law and news**
-5. **Interactive assistant allows Q&A follow-up**
+### Real-Time Integrations
+- Pull legal news from NewsAPI & GNews
+- e-Courts API for hearing alerts, case status, and filings
+- Lawyer marketplace for verified legal professional access
 
----
+### Compliance & Security
+- Private, secure document processing
+- Blockchain-powered legal audit logs for compliance
+- Firebase OAuth 2.0-based authentication
 
-## Use Cases
+### Legal Wellness Tools
+- Risk scoring and document health index
+- Contract hygiene gamification for startups & SMEs
 
-- Legal document understanding for non-lawyers
-- Startup founders validating contracts and liabilities
-- Pre-litigation preparation and risk analysis
-- Legal research and journalism
-- Internal audit and compliance for businesses
+## Tech Stack
 
----
+| Layer              | Technologies Used                                                                 |
+|-------------------|-------------------------------------------------------------------------------------|
+| Frontend          | React.js, Tailwind CSS                                                             |
+| Backend           | Flask / Node.js                                                                    |
+| AI & NLP          | OpenAI GPT-4 Turbo, LangChain, Whisper, ElevenLabs                                 |
+| Document Parsing  | pdfminer.six, Apache Tika, docx2txt                                                 |
+| Legal APIs        | Indian Kanoon (scraping/parser), CourtListener, e-Courts (optional integration)    |
+| News APIs         | NewsAPI.org, GNews                                                                  |
+| Search & Vectors  | FAISS / Pinecone                                                                   |
+| Database          | MongoDB / PostgreSQL                                                               |
+| Authentication    | Firebase Auth / OAuth 2.0                                                          |
+| Blockchain Audit  | Ethereum / Polygon (optional via smart contract logs)                             |
 
-## Technology Stack
 
-| Layer            | Technologies Used                               |
-|------------------|--------------------------------------------------|
-| Frontend         | React.js, Tailwind CSS                          |
-| Backend          | Node.js / Flask (Python)                        |
-| AI & NLP         | OpenAI GPT-4 Turbo, LangChain                   |
-| Document Parsing | pdfminer.six, Apache Tika, docx2txt             |
-| Legal APIs       | Indian Kanoon (scraping/parser), CourtListener  |
-| News APIs        | NewsAPI.org, GNews                              |
-| Vector Search    | Pinecone / FAISS                                |
-| Database         | MongoDB / PostgreSQL                            |
-| Authentication   | Firebase Auth / OAuth 2.0                       |
 
----
 
-## Setup Instructions
-
-```bash
-git clone https://github.com/yourusername/verdictly.git
-cd verdictly
-
-# Frontend
-npm install
-npm start
-
-# Backend
-cd backend
-pip install -r requirements.txt
-python app.py
+  
